@@ -11,7 +11,7 @@ public class Calculator {
             if (scanner.hasNextInt()) {
                 quantity = scanner.nextInt();
                 if (quantity<=1){
-                    System.out.println("Нет смысла считать и делить счет для одного человека. Введите другое значение.");
+                    System.out.println("Введено отрицательное значение или 1.Повторите ввод.");
                 }else {
                     return quantity;
                 }
